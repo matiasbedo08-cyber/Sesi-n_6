@@ -14,7 +14,6 @@ public class Main {
         controlador.completarTarea(0);
         controlador.completarTarea(2);
 
-        System.out.println("\n--- ESTADO FINAL ---");
         controlador.mostrarTareas();
     }
 }

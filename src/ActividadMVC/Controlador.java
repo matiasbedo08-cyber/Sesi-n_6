@@ -26,8 +26,9 @@ public class Controlador {
             vista.printMessage("Índice de tarea no válido.");
         }
     }
-
-    public void mostrarTareas() {
+    public void mostrarTareas()
+    {
+        System.out.println("\nESTADO FINAL");
         vista.printTasks(tareas);
     }
 }
